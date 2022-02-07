@@ -1,0 +1,42 @@
+body {
+  background-image: url(bg.jpg);
+}
+
+a {
+  color:red;
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+
+  align-content: space-between;
+}
+
+.werk {
+  color:black;
+  justify-content: left;
+  width: 300;
+  height: 400px;
+}
+.stage {
+  color:black;
+
+  width: 300;
+  height: 400px;
+}
+
+.contact {
+  color:black;
+
+  width: 300;
+  height: 400px;
+}
+.educatie {
+  color:black;
+  width: 300;
+  height: 400px;
+}
+
