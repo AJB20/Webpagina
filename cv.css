@@ -12,22 +12,27 @@ nav {
 
 }
 
-a {
-  color:rgb(30, 255, 0);
+p {
+  text-align: center;
+  color: white
 }
 .flexbox {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   font-size: 20px;
   color: white;
-  border: double 1px wheat;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
+a {
+  color: aqua;
+}
+
 
 img {
   border-radius: 50%;
@@ -38,18 +43,4 @@ img {
 }
 
 
-.werk {
-
-
- 
-}
-.stage {
-
-}
-
-.contact {
-
-}
-.educatie {
-}
 
