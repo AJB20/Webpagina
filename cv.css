@@ -1,46 +1,56 @@
 body {
-  background-image: url(bg.jpg);
+    background-color: grey;
 }
 
-nav {
-  width: 100%;
-  font-size: 160%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: left;
-  background: black;
-  border: 100% solid ;
-
+.menu {
+    box-sizing: border-box;
+    border: grey;
+    color:white;
+    border-width: 10px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: grey(0, 157, 255);  
 }
-
-p {
-  text-align: center;
-  color: white
-}
-.flexbox {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  font-size: 20px;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
 a {
-  color: aqua;
+    color: white;
 }
 
 
-img {
-  border-radius: 50%;
-  display: block;
+.contact,.educatie,.werk{
+
+    text-align: center;
+    box-sizing: border-box;
+    border: solid grey ;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.cvp {
+    border-radius: 50%;
+      display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 21%;
+  font-size: xx-large;
+  color: white;
+
+    
+}
+img {
+    border-radius: 110%;
 }
 
 
 
+
+.copyright {
+    color: white;
+    font-size: 10px;
+}
