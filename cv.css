@@ -28,7 +28,7 @@ a {
   box-sizing: border-box;
   justify-content: space-between;
   color: rgb(244, 164, 96);
-  text-shadow: rgb(0, 0, 0) 3px 3px;
+  text-shadow: rgb(0, 0, 0) 4px 4px;
   font-family: "Walter Turncoat", cursive;
   font-size: 20px;
 }
@@ -50,6 +50,6 @@ a {
 
 h1 {
   color: rgb(244, 164, 96);
-  text-shadow: rgb(0, 0, 0) 3px 3px;
+  text-shadow: rgb(0, 0, 0) 4px 4px;
   font-family: "Walter Turncoat", cursive;
 }
