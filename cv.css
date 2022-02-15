@@ -4,21 +4,16 @@ body {
 
 .menu {
   box-sizing: border-box;
-  text-shadow: white 1px 1px;
-  border: black;
+  text-shadow: rgb(0, 0, 0) 5px 5px;
   color: rgb(244, 164, 96);
-  border-style: solid 15px;
   display: flex;
   justify-content: space-around;
   font-size: 25px;
-  font-family: "Walter Turncoat", cursive;
-}
-
-menu.hover {
-  width: 100px;
 }
 
 a {
+  font-size: 25px;
+  font-family: "Walter Turncoat", cursive;
   color: rgb(244, 164, 96);
   text-decoration: none;
   text-shadow: rgb(0, 0, 0) 5px 5px;
@@ -27,16 +22,15 @@ a {
 .contact,
 .educatie,
 .werk {
-  text-align: center;
-  box-sizing: border-box;
-  border: solid 2px;
-  justify-content: space-between;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+  justify-content: space-between;
   color: rgb(244, 164, 96);
   text-shadow: rgb(0, 0, 0) 3px 3px;
   font-family: "Walter Turncoat", cursive;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .cvp {
