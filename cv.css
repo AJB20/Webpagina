@@ -1,56 +1,61 @@
 body {
-    background-color: grey;
+  background-image: url(wood.jpg);
 }
 
 .menu {
-    box-sizing: border-box;
-    border: grey;
-    color:white;
-    border-width: 10px;
-    border-style: solid;
-    display: flex;
-    justify-content: space-around;
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: grey(0, 157, 255);  
+  box-sizing: border-box;
+  text-shadow: white 1px 1px;
+  border: black;
+  color: rgb(244, 164, 96);
+  border-style: solid 15px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  font-family: "Walter Turncoat", cursive;
 }
+
+menu.hover {
+  width: 100px;
+}
+
 a {
-    color: white;
+  color: rgb(244, 164, 96);
+  text-decoration: none;
+  text-shadow: rgb(0, 0, 0) 5px 5px;
 }
 
-
-.contact,.educatie,.werk{
-
-    text-align: center;
-    box-sizing: border-box;
-    border: solid grey ;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 22px;
+.contact,
+.educatie,
+.werk {
+  text-align: center;
+  box-sizing: border-box;
+  border: solid 2px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  color: rgb(244, 164, 96);
+  text-shadow: rgb(0, 0, 0) 3px 3px;
+  font-family: "Walter Turncoat", cursive;
+  font-size: 22px;
 }
 
 .cvp {
-    border-radius: 50%;
-      display: block;
+  border-radius: 50%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 21%;
   font-size: xx-large;
   color: white;
-
-    
 }
-img {
-    border-radius: 110%;
-}
-
-
-
 
 .copyright {
-    color: white;
-    font-size: 10px;
+  color: white;
+  font-size: 10px;
+}
+
+h1 {
+  color: rgb(244, 164, 96);
+  text-shadow: rgb(0, 0, 0) 3px 3px;
+  font-family: "Walter Turncoat", cursive;
 }
