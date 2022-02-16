@@ -1,9 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(wood.jpg);
 }
 
 .menu {
-  box-sizing: border-box;
   text-shadow: rgb(0, 0, 0) 5px 5px;
   color: rgb(244, 164, 96);
   display: flex;
@@ -25,7 +28,6 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  box-sizing: border-box;
   justify-content: space-around;
   color: rgb(244, 164, 96);
   text-shadow: rgb(0, 0, 0) 4px 4px;
