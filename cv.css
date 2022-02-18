@@ -7,19 +7,19 @@ body {
 }
 
 .menu {
-  text-shadow: rgb(0, 0, 0) 5px 5px;
+  text-shadow: rgb(0, 0, 0);
   color: rgb(244, 164, 96);
   display: flex;
   justify-content: space-evenly;
-  font-size: 25px;
+  font-size: 30em;
 }
 
 a {
-  font-size: 25px;
+  font-size: 0.06em;
   font-family: "Walter Turncoat", cursive;
   color: rgb(244, 164, 96);
   text-decoration: none;
-  text-shadow: rgb(0, 0, 0) 5px 5px;
+  text-shadow: rgb(0, 0, 0) 1px 1px;
 }
 
 .contact,
@@ -30,32 +30,25 @@ a {
   text-align: center;
   justify-content: space-around;
   color: rgb(244, 164, 96);
-  text-shadow: rgb(0, 0, 0) 4px 4px;
+  text-shadow: rgb(0, 0, 0) 0em 0.2em;
   font-family: "Walter Turncoat", cursive;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 .cvp {
-  cursor: wait;
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
-  font-size: xx-large;
-  color: white;
+  width: 20em;
 }
 a.cvp {
   cursor: wait;
 }
-.copyright {
-  color: white;
-  font-size: 10px;
-}
 
 h1 {
   color: rgb(244, 164, 96);
-  text-shadow: rgb(0, 0, 0) 4px 4px;
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em;
   font-family: "Walter Turncoat", cursive;
 }
 
